@@ -13,7 +13,6 @@ class App extends Component {
   state = {
     total: 0,
     buyProList: [
-      // 132
       {
         id: 1,
         name: "Plumpy Nut",
@@ -37,7 +36,6 @@ class App extends Component {
   setproList = (it: Iproducts, type: string) => {
     let { buyProList, total } = this.state;
     let exist = false;
-    let isexist = false;
 
     if (type === "add") {
       if (buyProList.length) {
@@ -228,7 +226,7 @@ class App extends Component {
               <div className="pro-wrap ">{buyList}</div>
             </div>
             <div className="row">
-              <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+              <div className="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                 total {this.state.buyProList.length} items selected
               </div>
               <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
@@ -240,8 +238,6 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <br />
-        <br />
         <br />
         <br />
       </div>
