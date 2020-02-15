@@ -126,7 +126,7 @@ class App extends Component {
               onClick={() => this.setproList(item, "add")}
               className="btn btn-warning"
             >
-              Add Car
+              Add to Cart
             </button>
           </div>
         </div>
@@ -216,7 +216,7 @@ class App extends Component {
                     Purchase Quantity
                   </div>
                   <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                    Amount of Money
+                    Amount
                   </div>
                   <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
                     Action
