@@ -1,8 +1,14 @@
 # Unicef Front End Template 🦄🚀
 
-< add documentation here >
+< Kevin Xu Front End Test >
 
 ---
+## How to Run
+
+- Open Vs code -> View -> Terminal
+- input "npm install"
+- input "npm start"
+- You are able to use the app on localhost:3000
 
 ## Test Instructions
 
