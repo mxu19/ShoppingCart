@@ -34,30 +34,6 @@ export const products: Iproducts[] = [
   },
   {
     id: 5,
-    name: "Pencils",
-    price: 13.9,
-    totalNum: 4905,
-  },
-  {
-    id: 6,
-    name: "Pencils",
-    price: 13.9,
-    totalNum: 4905,
-  },
-  {
-    id: 7,
-    name: "Pencils",
-    price: 13.9,
-    totalNum: 4905,
-  },
-  {
-    id: 8,
-    name: "Pencils",
-    price: 13.9,
-    totalNum: 4905,
-  },
-  {
-    id: 9,
     name: "School Bags",
     price: 19.45,
     totalNum: 9450,
